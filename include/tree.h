@@ -48,6 +48,7 @@ class Tree {
       Perestanovka(root->sheet[i], f);
     }
   }
+
  public:
   std::string operator[](int i) const {
     if (i >= perest.size()) {
